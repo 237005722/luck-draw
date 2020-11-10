@@ -1,0 +1,139 @@
+.box {
+  animation-duration: 0;
+  /* animation-delay: 1s; */
+  animation-timing-function: ease;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-duration: 0;
+  /* -webkit-animation-delay: 1s; */
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+}
+.topleft{
+  animation-name: topleft-move;
+  -webkit-animation-name: topleft-move;
+}
+.topcenter{
+  animation-name: topcenter-move;
+  -webkit-animation-name: topcenter-move;
+}
+.topright{
+  animation-name: topright-move;
+  -webkit-animation-name: topright-move;
+}
+.centerleft{
+  animation-name: centerleft-move;
+  -webkit-animation-name: centerleft-move;
+}
+.center{
+  animation-name: center-move;
+  -webkit-animation-name: center-move;
+}
+.centerright{
+  animation-name: centerright-move;
+  -webkit-animation-name: centerright-move;
+}
+.bottomleft{
+  animation-name: bottomleft-move;
+  -webkit-animation-name: bottomleft-move;
+}
+.bottomcenter{
+  animation-name: bottomcenter-move;
+  -webkit-animation-name: bottomcenter-move;
+}
+.bottomright{
+  animation-name: bottomright-move;
+  -webkit-animation-name: bottomright-move;
+}
+@keyframes topleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: 33.333%;}
+}
+@-webkit-keyframes topleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: 33.333%;}
+}
+@keyframes topcenter-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: 33.333%;}
+}
+@-webkit-keyframes topcenter-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: 33.333%;}
+}
+@keyframes topright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: 33.333%;}
+}
+@-webkit-keyframes topright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: 33.333%;}
+}
+@keyframes centerleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: 0px;}
+}
+@-webkit-keyframes centerleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: 0px;}
+}
+@keyframes center-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: 0px;}
+}
+@-webkit-keyframes center-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: 0px;}
+}
+@keyframes centerright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: 0px;}
+}
+@-webkit-keyframes centerright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: 0px;}
+}
+@keyframes bottomleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: -33.333%;}
+}
+@-webkit-keyframes bottomleft-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 33.333%; top: -33.333%;}
+}
+@keyframes bottomcenter-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: -33.333%;}
+}
+@-webkit-keyframes bottomcenter-move
+{
+	from { left: 0px; top: 0px }
+	to { left: 0px; top: -33.333%;}
+}
+@keyframes bottomright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: -33.333%;}
+}
+@-webkit-keyframes bottomright-move
+{
+	from { left: 0px; top: 0px }
+	to { left: -33.333%; top: -33.333%;}
+}
